@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class LoginController extends Controller
+{
+    public function getLogin(){
+
+        return view('admin.Auth.login');
+    }
+    public function Login(LoginRequst $request){
+        //make validation
+
+
+    }
+}
